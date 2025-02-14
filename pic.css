@@ -1,0 +1,56 @@
+
+body{background-color: rgb(228, 12, 12);}.images{
+ }
+   .images{margin:auto;
+padding: 1cm; }
+
+    img{width: 200px;
+       filter:blur(5px) ;
+        border-radius:0 2cm 0 2cm ;
+        border: 2px solid rgb(211, 21, 138);
+     padding:2px ;
+animation-name: moving;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+
+
+   }
+        img:hover{transform:scale(1.5);
+filter: blur(0px);
+box-shadow: 0 0 10px 10px rgb(255, 75, 75);
+  mix-blend-mode:hard-light;      }
+    
+ .first{margin-top: -6cm;
+    position: relative;
+float: right;
+max-width:10cm;border:0cm;
+border-radius: 0cm;
+mix-blend-mode: hard-light; 
+border-radius:40cm 0cm 0cm 10cm ;
+
+
+}
+
+H1{ color: rgb(246, 175, 252);
+    background-color: rgb(6, 2, 7);   
+height:0.6cm ;
+width: fit-content;
+margin: auto;
+margin-bottom: 1cm;
+ 
+border-radius: 0 4px 10px 5px;}
+
+p{background-color: black;
+color: rgb(255, 19, 19);
+max-width: max-content;
+padding: 0.1cm;
+border-radius: 5cm;
+margin-left: auto;
+margin-bottom: -1cm;
+}
+
+@keyframes moving {
+    90%{ transform:translatey(-15px); }
+
+    0%{ transform:translatey(15px); }
+  }
